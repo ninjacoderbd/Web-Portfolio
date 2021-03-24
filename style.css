@@ -4,17 +4,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 section{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .heroAria{
-    height: 500px;
+    width: 100%;
     background: url("img/top-banner.png") no-repeat;
+    height: 500px;
 }
 img{
     max-width: 100%;
 }
 .halfWidth{
     width: 40%;
+    height: 100%;
     float: left;
     margin: 1% 5%;
     
@@ -29,7 +31,7 @@ img{
     color: crimson;
 }
 .halfWidth p{
-    color: gray;
+    color: rgb(109, 98, 98);
     line-height: 1.8;
 }
 .linkBtn{
@@ -44,13 +46,44 @@ img{
 }
 .dreamSection{
     height: 500px;
+    width: 100%;
     background: url("img/dream-bg.png") right no-repeat;
 }
 .dreamContent{
     margin-top: 20px;
 }
 
+.expeSec{
+    width: 100%;
+    background: url("img/exp-bg.png") left 100px no-repeat;
+    height:380px;
 
-
-
-
+}
+.expe{
+    margin: 10px 0px 40px 10px;
+}
+.card h2{
+    font-size: 35px;
+}
+.card b{
+    color: crimson ;
+}
+.card{
+    padding: 10px;
+    box-shadow: 10px 10px 20px #ccc;
+    border-radius: 0px 50px 0 0;
+    height: 260px;
+}
+#ninja{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom,#ca304f,#F9765F);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(to top, aqua, blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
